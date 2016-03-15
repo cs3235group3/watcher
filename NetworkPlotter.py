@@ -15,7 +15,7 @@ class NetworkPlotter:
         self.a = self.figure.add_subplot(1,1,1,axisbg='black')
         self.canvas = FigureCanvasTkAgg(self.figure, parent)
         self.canvas.show()
-        self.canvas.get_tk_widget().pack(side=TOP, fill=BOTH, expand=True)
+        self.canvas.get_tk_widget().pack(side=LEFT, fill=BOTH, expand=True)
         self.ani = animation.FuncAnimation(self.figure, self.animate ,interval=1000)
         self.sniffer = Sniffer(1, 'Sniffer-1', 1)
         self.sniffer.start()

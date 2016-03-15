@@ -7,14 +7,14 @@ class Packet(object):
         self.dst_ip = dst_ip
         self.dst_mac = dst_mac
 
-    def getSenderIP():
+    def getSenderIp(self):
         return self.sender_ip
 
-    def getSenderMac():
+    def getSenderMac(self):
         return self.sender_mac
 
-    def getDstIp():
+    def getDstIp(self):
         return self.dst_ip
 
-    def getDstMac():
+    def getDstMac(self):
         return self.dst_mac

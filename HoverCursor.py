@@ -81,11 +81,11 @@ class FollowDotCursor(object):
             # IndexError: index out of bounds
             return self._points[0]
 
-fig, ax = plt.subplots()
-x = np.linspace(0.1, 2*pi, 10)
-y = cos(x)
-markerline, stemlines, baseline = ax.stem(x, y, '-.')
-plt.setp(markerline, 'markerfacecolor', 'b')
-plt.setp(baseline, 'color','r', 'linewidth', 2)
-cursor = FollowDotCursor(ax, x, y, tolerance=20)
-plt.show()
+#fig, ax = plt.subplots()
+#x = np.linspace(0.1, 2*pi, 10)
+#y = cos(x)
+#markerline, stemlines, baseline = ax.stem(x, y, '-.')
+#plt.setp(markerline, 'markerfacecolor', 'b')
+#plt.setp(baseline, 'color','r', 'linewidth', 2)
+#cursor = FollowDotCursor(ax, x, y, tolerance=20)
+#plt.show()
